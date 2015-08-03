@@ -8,10 +8,21 @@ Haste is the prettiest, easiest to use pastebin ever made.
 
 ## Basic Usage
 
-Type what you want me to see, click "Save", and then copy the URL.  Send that
-URL to someone and they'll see what you see.
+Type what you want to share, click "Save" in the upper right corner, and then
+copy the URL.  Send that URL to someone and they'll see what you saved.
 
-To make a new entry, click "New" (or type 'control + n')
+To make a new entry, click "New" in the upper right corner.
+
+## Syntax Highlighting
+
+Haste tries to guess the language you're pasting in, but it isn't always right.
+You can adjust the syntax highlighting of a paste after you create it by changing
+the file extension at the end of the URL.
+
+## Duration
+
+Haste is a tool to share things temporarily. Pastes may be cleared without notice,
+so don't count on them sticking around.
 
 ## From the Console
 
@@ -35,11 +46,6 @@ That's all there is to that, and you can install it with `gem install haste`
 right now.
   * osx: you will need to have an up to date version of Xcode
   * linux: you will need to have rubygems and ruby-devel installed
-
-## Duration
-
-Pastes will stay for 30 days from their last view.  They may be removed earlier
-and without notice.
 
 ## Privacy
 
